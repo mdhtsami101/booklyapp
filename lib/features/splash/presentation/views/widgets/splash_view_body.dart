@@ -6,7 +6,7 @@ import 'package:booklyapp/features/splash/presentation/views/widgets/sliding_tex
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class SplashViewBody extends StatefulWidget {
+class SplashViewBody extends StatefulWidget { 
   const SplashViewBody({super.key});
 
   @override
@@ -17,7 +17,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
     with SingleTickerProviderStateMixin {
   late AnimationController animationController;
   late Animation<Offset> slidingAnimations;
-  @override
+  @override  
   void initState() {
     super.initState();
 
